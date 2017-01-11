@@ -2161,7 +2161,7 @@ PSVComponent.prototype.hide = function() {
  * Restores component visibility
  */
 PSVComponent.prototype.show = function() {
-  this.container.style.display = null;
+  this.container.style.display = 'flex';
 };
 
 
