@@ -4874,7 +4874,7 @@ PSVUtils.getClosest = function(el, selector) {
     if (matches.bind(el)(selector)) {
       return el;
     }
-  } while (!!(el = el.parentElement));
+  } while (!!(el = el.parentNode));
 
   return null;
 };
