@@ -3665,6 +3665,9 @@ PSVTooltip.prototype.handleEvent = function(e) {
  * @returns {boolean}
  */
 PSVTooltip.prototype.isTooltipVisible = function() {
+  if (!this.container)
+    return false
+
   return this.container.classList.contains('psv-tooltip--visible');
 };
 
