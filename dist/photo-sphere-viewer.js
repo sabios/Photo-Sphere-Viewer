@@ -7,7 +7,7 @@
 
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define(['three', 'D.js', 'uevent', 'doT'], factory);
+    define(['three', 'd.js', 'uevent', 'dot'], factory);
   }
   else if (typeof module === 'object' && module.exports) {
     module.exports = factory(require('three'), require('d.js'), require('uevent'), require('dot'));

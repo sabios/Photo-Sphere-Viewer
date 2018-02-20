@@ -13,6 +13,7 @@
       "homepage": "http://www.strangeplanet.fr"
     }
   ],
+  "main" :"dist/photo-sphere-viewer.js",
   "description": "A JavaScript library to display Photo Sphere panoramas",
   "homepage": "http://mistic100.github.io/Photo-Sphere-Viewer",
   "dependencies": {
